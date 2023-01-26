@@ -1,7 +1,6 @@
 #conversion to grayscale
 #Blurring to reduce high frequency noise to make our contour detection process more accurate.
 #Binarization of the image. Typically edge detection and thresholding are used for this process. In this post, we’ll be applying thresholding.
-import cv2
 import imutils
 import argparse
 
