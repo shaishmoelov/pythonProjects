@@ -10,8 +10,8 @@ width = 1040
 i=0
 j=0
 # Draw the lines of the cross
-for i in height:
-    for j in width:
+for i in range(height):
+    for j in range(width):
 
         cv2.line(image, (50, 100), (150, 100), (255, 255, 255), 2)
         cv2.line(image, (100, 50), (100, 150), (255, 255, 255), 2)
